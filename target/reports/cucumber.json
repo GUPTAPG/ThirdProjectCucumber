@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-16T20:06:53.940Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17973115500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepsForBackground.runBefore()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sky Blue Background;",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-valiadation-by-changing-background-color;sky-blue-background;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 719662200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Set SkyBlue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set SkyBlue Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.StepsForBackground.button_exists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 467780600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button1",
+            "match": {
+              "location": "steps.StepsForBackground.i_click_on_the_button1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "steps.StepsForBackground.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-16T20:07:13.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17305197600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepsForBackground.runBefore()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "White Background Change;",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-valiadation-by-changing-background-color;white-background-change;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2472718400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Set SkyWhite Background\"button exists",
+            "match": {
+              "location": "steps.StepsForBackground.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111756200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the button2",
+            "match": {
+              "location": "steps.StepsForBackground.i_click_on_the_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "steps.StepsForBackground.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing login page functionality valiadation by changing background color",
+    "description": "",
+    "id": "techfios-billing-login-page-functionality-valiadation-by-changing-background-color",
+    "keyword": "Feature",
+    "uri": "file:src/test/resourses/features/BackgroundChange.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
